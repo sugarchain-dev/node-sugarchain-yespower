@@ -1,1 +1,1 @@
-module.exports = require('bindings')('bellcoin_yespower');
+module.exports = require('bindings')('sugarchain_yespower');

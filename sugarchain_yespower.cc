@@ -38,4 +38,4 @@ void Init(v8::Local<v8::Object> exports) {
     exports->Set(Nan::New("hash").ToLocalChecked(), Nan::New<v8::FunctionTemplate>(hash)->GetFunction());
 }
 
-NODE_MODULE(bellcoin_yespower, Init);
+NODE_MODULE(sugarchain_yespower, Init);

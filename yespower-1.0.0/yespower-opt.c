@@ -1153,8 +1153,8 @@ void yespower_hash(const char *input, char *output)
 		.version = YESPOWER_1_0,
 		.N = 2048,
 		.r = 32,
-		.pers = NULL,
-		.perslen = 0
+		.pers = (const uint8_t *)"Sugarchain: Decentralized Cryptocurrency for one-CPU-one-vote",
+		.perslen = strlen("Sugarchain: Decentralized Cryptocurrency for one-CPU-one-vote")
 	};
 	//uint8_t src[80];
 	yespower_binary_t dst;

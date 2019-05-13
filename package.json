@@ -1,8 +1,8 @@
 {
-  "name": "bellcoin-yespower",
+  "name": "sugarchain-yespower",
   "version": "1.0.0",
-  "description": "Bellcoin yespower-1.0",
-  "main": "bellcoin_yespower",
+  "description": "Sugarchain yespower-1.0",
+  "main": "sugarchain_yespower",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "install": "node-gyp rebuild"
